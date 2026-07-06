@@ -1,12 +1,12 @@
-## Summary
+## 概要
 
-- Changed skill(s):
-- User scenario improved:
-- New external links:
+- 修改的 skill：
+- 改善的用户场景：
+- 新增外部链接：
 
-## Checks
+## 检查
 
-- [ ] I ran `python3 scripts/validate-skills.py skills`.
-- [ ] I tested at least one realistic prompt for each changed skill.
-- [ ] I did not add private source captures, local paths, account exports, tokens, or secrets.
-- [ ] I did not add instructions for platform enforcement evasion, fake identity verification, bulk registration, engagement manipulation, or payout manipulation.
+- [ ] 已运行 `python3 scripts/validate-skills.py skills`。
+- [ ] 已为每个改动过的 skill 测试至少 1 条真实提问。
+- [ ] 没有加入私有抓取材料、本地路径、账号导出、token 或密钥。
+- [ ] 没有加入规避平台风控、虚假身份验证、批量注册、操纵互动或操纵收益的说明。

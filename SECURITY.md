@@ -1,24 +1,24 @@
-# Security Policy
+# 安全说明
 
-## Sensitive Data
+## 敏感数据
 
-Do not submit:
+请不要提交：
 
-- passwords, cookies, tokens, API keys, or browser session data;
-- identity documents, KYC material, bank details, or full payout records;
-- private Feishu/Lark documents or internal capture logs;
-- account state files, CSV exports, or local absolute paths.
+- 密码、cookie、token、API key 或浏览器会话数据；
+- 身份证件、KYC 材料、银行卡信息或完整打款记录；
+- 私有飞书/Lark 文档或内部抓取日志；
+- 账号状态文件、CSV 导出或本地绝对路径。
 
-## Reporting a Security Issue
+## 报告安全问题
 
-If GitHub private vulnerability reporting is enabled for this repository, use it.
+如果本仓库已开启 GitHub 私密漏洞报告，请优先使用该入口。
 
-If it is not enabled, open a public issue that describes the category of the problem without including secrets or private account data. Ask maintainers to enable a private reporting channel before sharing sensitive details.
+如果尚未开启，请先创建一个公开 issue，只描述问题类别，不要贴出密钥、私密账号数据或可复现的敏感内容。等维护者开启私密沟通渠道后，再补充细节。
 
-## Supported Versions
+## 支持版本
 
-The latest `main` branch is the supported version.
+当前只支持最新的 `main` 分支。
 
-## Scope
+## 范围
 
-Security reports may include leaked private paths, accidental secrets, unsafe workflow instructions, or validation gaps that could cause private material to be committed.
+安全问题可以包括：误提交私有路径、意外泄露密钥、不安全工作流说明，或校验脚本未能拦截私有材料。

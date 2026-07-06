@@ -1,15 +1,15 @@
-# Code of Conduct
+# 行为准则
 
-## Our Standard
+## 基本标准
 
-Be respectful, constructive, and specific. Focus discussion on improving the skills, safety boundaries, documentation, and user outcomes.
+请保持尊重、建设性和具体。讨论应聚焦于改进 skill、边界、安全性、文档和用户效果。
 
-Unacceptable behavior includes harassment, doxxing, sharing private account data, publishing secrets, or encouraging platform abuse.
+不接受骚扰、公开他人隐私、分享私密账号数据、发布密钥，或鼓励平台滥用行为。
 
-## Enforcement
+## 处理方式
 
-Maintainers may edit, close, or remove issues and pull requests that include sensitive data, unsafe instructions, spam, or abusive behavior.
+维护者可以编辑、关闭或删除包含敏感数据、不安全说明、垃圾信息或攻击性内容的 issue 和 pull request。
 
-## Safety Reminder
+## 安全提醒
 
-Do not post account credentials, identity documents, payment details, private URLs, or live support emails in public issues or pull requests.
+不要在公开 issue 或 pull request 中发布账号密码、身份证件、支付信息、私有链接或真实客服邮件。

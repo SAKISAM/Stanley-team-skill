@@ -1,69 +1,69 @@
 # St-skill
 
-St-skill is a Codex skill group for X/Twitter account growth from 0 to 1.
+St-skill 是一组面向 Codex 的 X/Twitter 起号与增长技能。它不是单个重型 skill，而是一套轻量、可路由、可继续扩展的 skill 群。
 
-It focuses on practical routing and workflows for profile setup, content rhythm, content systems, reply growth, growth diagnosis, account risk recovery, creator monetization checks, infrastructure, monetization paths, tools, and state saving.
+它覆盖主页搭建、发推节奏、内容系统、回复增长、增长诊断、账号风险恢复、创作者收益检查、基础设施、平台外变现、工具导航和状态保存等流程。
 
-## What This Is
+## 这是什么
 
-- A group of local Codex skills under `skills/st-*`.
-- A strategy, diagnosis, planning, and template system for X/Twitter growth.
-- A self-contained release package that does not depend on private Feishu/Lark documents, raw captures, browser logs, or local absolute paths.
+- 一组位于 `skills/st-*` 下的本地 Codex skills。
+- 一套用于 X/Twitter 成长的策略、诊断、规划、模板和检查清单。
+- 一个自包含的开源发布包，不依赖私有飞书/Lark 文档、原始抓取材料、浏览器日志或本地绝对路径。
 
-## What This Is Not
+## 这不是什么
 
-- It does not log in to X/Twitter or operate accounts for you.
-- It does not automate posting, following, replying, or engagement.
-- It does not provide evasion, fake identity verification, bulk registration, engagement manipulation, payout manipulation, or platform enforcement bypass methods.
-- It does not guarantee creator revenue, account recovery, verification, payouts, or growth outcomes.
+- 不会登录或代操作你的 X/Twitter 账号。
+- 不会自动发帖、关注、取关、回复或刷互动。
+- 不提供规避平台风控、虚假身份验证、批量注册、操纵互动、操纵收益或绕过平台规则的方法。
+- 不承诺创作者收益、账号恢复、身份验证、打款或涨粉结果。
 
-## Included Skills
+## 包含的 Skill
 
-| Skill | Purpose |
+| Skill | 用途 |
 |---|---|
-| `st-skill` | Main router for the St-skill group |
-| `st-profile` | Profile setup: avatar, header, ID, bio, pinned post |
-| `st-content-rhythm` | Posting rhythm, short/long post ratio, stage plans |
-| `st-content-system` | Content pillars, topic pool, post/reply/quote roles |
-| `st-reply-growth` | Reply strategy, interaction frequency, comment-section growth |
-| `st-growth-diagnosis` | Low exposure, low engagement, slow growth diagnosis |
-| `st-risk-recovery` | Account freeze, lock, restriction, shadowban, abnormal status |
-| `st-monetization-check` | Creator revenue eligibility, suspension, appeal preparation |
-| `st-infra` | Premium/P+, Wise, Stripe, eSIM, payment, identity verification |
-| `st-monetization-path` | Off-platform monetization: consulting, community, courses, services, deals |
-| `st-toolkit` | Tool links, viral monitoring, shadowban checker, P/P+ and Wise tutorials |
-| `st-save` | Save account state, stage judgment, and next actions |
-| `st-positioning` | Compatibility entry for early account direction language |
+| `st-skill` | St-skill 技能群主入口和路由器 |
+| `st-profile` | 主页搭建：头像、header、ID、bio、置顶帖 |
+| `st-content-rhythm` | 发推节奏、短推/长文比例、阶段计划 |
+| `st-content-system` | 内容栏目、选题池、短推/长文/回复/引用分工 |
+| `st-reply-growth` | 回复策略、互动频率、评论区涨粉 |
+| `st-growth-diagnosis` | 低曝光、低互动、涨粉慢等增长诊断 |
+| `st-risk-recovery` | 冻结、锁定、受限、影子封禁、账号异常 |
+| `st-monetization-check` | 创作者收益资格、自查、暂停和申诉准备 |
+| `st-infra` | Premium/P+、Wise、Stripe、eSIM、支付、身份验证 |
+| `st-monetization-path` | 平台外变现：咨询、社群、课程、服务、商单 |
+| `st-toolkit` | 工具入口、爆款监测、影子封禁查询、P/P+ 和 Wise 教程 |
+| `st-save` | 保存账号状态、阶段判断和下一步动作 |
+| `st-positioning` | 早期“账号方向”说法的兼容入口 |
 
-## Install
+## 安装
 
-Copy the skill folders into your Codex skills directory:
+把 `skills/` 下的 skill 目录复制到你的 Codex skills 目录：
 
 ```bash
 mkdir -p ~/.codex/skills
 cp -R skills/st-* ~/.codex/skills/
 ```
 
-Restart Codex if the new skills do not appear immediately.
+如果 Codex 没有立刻显示新 skill，重启 Codex。
 
-## Update
+## 更新
 
-Replace the installed `st-*` folders with the latest release:
+用最新版替换本地已安装的 `st-*` 目录：
 
 ```bash
 rm -rf ~/.codex/skills/st-*
 cp -R skills/st-* ~/.codex/skills/
 ```
 
-## Usage Examples
+## 使用示例
 
-- "Use st-skill: how should I start a new X account from 0 to 1?"
-- "Use st-toolkit: how do I check whether I am shadowbanned?"
-- "Use st-infra: how do I open P+?"
-- "Use st-monetization-check: how do I appeal creator revenue suspension?"
-- "Use st-growth-diagnosis: why am I posting a lot but not gaining followers?"
+- “Use st-skill：推特新号从 0 到 1 怎么开始？”
+- “Use st-toolkit：怎么检测自己有没有影子封禁？”
+- “Use st-infra：怎么开 P+？”
+- “Use st-monetization-check：创作者收益暂停怎么申诉？”
+- “Use st-growth-diagnosis：为什么我发了很多但不涨粉？”
 
-## Repository Layout
+## 仓库结构
 
 ```text
 .
@@ -78,36 +78,36 @@ cp -R skills/st-* ~/.codex/skills/
     └── ISSUE_TEMPLATE/
 ```
 
-Each skill directory should contain only:
+每个 skill 目录只应该包含：
 
 - `SKILL.md`
 - `agents/openai.yaml`
-- optional `references/*.md`
+- 可选的 `references/*.md`
 
-Do not add README, changelog, install guide, raw source material, or local reports inside individual skill directories.
+不要在单个 skill 目录里添加 README、更新日志、安装指南、原始素材、本地报告或抓取记录。
 
-## Validation
+## 校验
 
-Run the self-contained validator before opening a pull request:
+提交 PR 前运行自包含校验脚本：
 
 ```bash
 python3 scripts/validate-skills.py skills
 ```
 
-The validator checks:
+校验脚本会检查：
 
-- each `st-*` directory has one root `SKILL.md`;
-- skill frontmatter has valid `name` and `description`;
-- `agents/openai.yaml` exists and has required UI fields;
-- skill folders do not contain nested `SKILL.md` files or auxiliary docs;
-- release files do not include common private paths, raw capture folders, `.DS_Store`, `.env`, or obvious secret-like values.
+- 每个 `st-*` 目录只有一个根级 `SKILL.md`。
+- skill frontmatter 里有合法的 `name` 和 `description`。
+- `agents/openai.yaml` 存在，并包含必要的 UI 字段。
+- skill 目录没有嵌套 `SKILL.md` 或辅助文档。
+- 发布包不包含常见私有路径、原始抓取目录、`.DS_Store`、`.env` 或疑似密钥。
 
-## Safety
+## 安全边界
 
-St-skill can provide strategy, diagnosis, planning, checklists, templates, and local state structures. It should not be used to evade platform enforcement, fake identity checks, manipulate engagement, mass-register accounts, or manipulate payouts.
+St-skill 可以提供策略、诊断、规划、检查清单、模板和本地状态结构。不要用它来规避平台风控、伪造身份、操纵互动、批量注册账号或操纵收益。
 
-Platform rules, payment support, creator revenue requirements, and verification flows change over time. Treat external links and tutorials as workflow references, then verify current official status before acting.
+平台规则、支付支持、创作者收益条件和身份验证流程会变化。外部链接和教程只能作为流程参考，执行前请核验官方当前状态。
 
-## License
+## 许可证
 
-MIT. See [LICENSE](LICENSE).
+MIT。详见 [LICENSE](LICENSE)。

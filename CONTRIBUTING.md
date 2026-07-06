@@ -1,18 +1,18 @@
-# Contributing
+# 贡献指南
 
-Thanks for improving St-skill.
+感谢你改进 St-skill。
 
-## Development Rules
+## 开发规则
 
-- Keep each skill self-contained.
-- Keep `SKILL.md` concise and procedural.
-- Put detailed reusable knowledge in `references/*.md`.
-- Do not add README, changelog, install guides, raw captures, reports, or source logs inside individual skill folders.
-- Do not commit private Feishu/Lark links, local absolute paths, browser logs, account state files, CSV exports, tokens, or secrets.
+- 每个 skill 必须保持自包含。
+- `SKILL.md` 要简洁、流程化，避免写成长篇文章。
+- 详细且可复用的知识放进 `references/*.md`。
+- 不要在单个 skill 目录里添加 README、更新日志、安装指南、原始抓取材料、报告或来源日志。
+- 不要提交私有飞书/Lark 链接、本地绝对路径、浏览器日志、账号状态文件、CSV 导出、token 或密钥。
 
-## Skill Directory Shape
+## Skill 目录结构
 
-Each skill should use this shape:
+每个 skill 使用这个结构：
 
 ```text
 skills/st-example/
@@ -23,24 +23,24 @@ skills/st-example/
     └── optional-reference.md
 ```
 
-## Before Opening a Pull Request
+## 提交 PR 前
 
-Run:
+运行：
 
 ```bash
 python3 scripts/validate-skills.py skills
 ```
 
-Also test at least one realistic user prompt for every skill you changed.
+并且为你改过的每个 skill 至少测试 1 条真实用户提问。
 
-## Pull Request Checklist
+## PR 检查清单
 
-- Name the skill or references changed.
-- Explain the user scenario improved.
-- List any new external links.
-- Confirm no private source material or local paths were added.
-- Confirm `python3 scripts/validate-skills.py skills` passes.
+- 说明修改了哪个 skill 或 reference。
+- 说明改善了哪个用户场景。
+- 列出新增的外部链接。
+- 确认没有加入私有素材、本地路径或敏感数据。
+- 确认 `python3 scripts/validate-skills.py skills` 通过。
 
-## Safety Boundary
+## 安全边界
 
-Contributions must not add instructions for platform enforcement evasion, fake identity verification, bulk registration, engagement manipulation, payout manipulation, or automated spam behavior.
+贡献内容不得加入规避平台风控、虚假身份验证、批量注册、操纵互动、操纵收益或自动化垃圾行为的说明。

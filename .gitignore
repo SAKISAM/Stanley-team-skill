@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 
-# Private source and capture material
+# 私有素材和抓取材料
 01-raw-md/
 logs/
 browser-logs/
@@ -19,7 +19,7 @@ _framework/
 07-报告输出/
 09-验收与日志/
 
-# Local state and generated outputs
+# 本地状态和生成结果
 .st-skill/
 sessions/
 reports/
@@ -27,7 +27,7 @@ tmp/
 *.log
 *.tmp
 
-# Secrets and local exports
+# 密钥和本地导出
 *.env
 *.env.*
 !.env.example
@@ -37,7 +37,7 @@ tmp/
 *.sqlite
 *.sqlite3
 
-# Packaging artifacts
+# 打包产物
 *.zip
 *.tar
 *.tar.gz

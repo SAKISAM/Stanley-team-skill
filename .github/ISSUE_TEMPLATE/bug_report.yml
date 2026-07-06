@@ -1,47 +1,47 @@
-name: Bug report
-description: Report a routing issue, missing link, unsafe output, or unusable workflow.
-title: "[Bug]: "
+name: 问题反馈
+description: 反馈路由错误、链接缺失、不安全输出或不可用工作流。
+title: "[问题]: "
 labels: ["bug"]
 body:
   - type: textarea
     id: prompt
     attributes:
-      label: User prompt
-      description: What did you ask Codex?
-      placeholder: "Example: Use st-toolkit: how do I check whether I am shadowbanned?"
+      label: 用户提问
+      description: 你当时向 Codex 问了什么？
+      placeholder: "例如：Use st-toolkit：怎么检测自己有没有影子封禁？"
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
-      description: What should the skill have done?
+      label: 期望结果
+      description: 你认为 skill 应该怎么处理？
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: Actual behavior
-      description: What happened instead? Do not include secrets, account credentials, identity documents, or private support emails.
+      label: 实际结果
+      description: 实际发生了什么？请不要包含密钥、账号密码、身份证件或私密客服邮件。
     validations:
       required: true
   - type: dropdown
     id: area
     attributes:
-      label: Area
+      label: 模块
       options:
-        - Routing
-        - Profile
-        - Content rhythm
-        - Content system
-        - Reply growth
-        - Growth diagnosis
-        - Risk recovery
-        - Monetization check
-        - Infrastructure
-        - Monetization path
-        - Toolkit
-        - Save
-        - Documentation
+        - 路由
+        - 主页
+        - 发推节奏
+        - 内容系统
+        - 回复增长
+        - 增长诊断
+        - 风险恢复
+        - 创作者收益
+        - 基础设施
+        - 变现路径
+        - 工具
+        - 保存
+        - 文档
     validations:
       required: true

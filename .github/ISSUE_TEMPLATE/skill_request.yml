@@ -1,34 +1,34 @@
-name: Skill request
-description: Request a new skill, reference module, route, or workflow.
-title: "[Skill request]: "
+name: Skill 需求
+description: 请求新增 skill、reference、路由或工作流。
+title: "[需求]: "
 labels: ["enhancement"]
 body:
   - type: textarea
     id: scenario
     attributes:
-      label: User scenario
-      description: What would a user ask, and what should happen?
-      placeholder: "Example: I want a workflow for reviewing a 30-day X Analytics export."
+      label: 用户场景
+      description: 用户会怎么问？理想情况下 skill 应该怎么处理？
+      placeholder: "例如：我想要一个分析 30 天 X Analytics 导出的复盘工作流。"
     validations:
       required: true
   - type: textarea
     id: current_gap
     attributes:
-      label: Current gap
-      description: Which current skill fails to cover this, or where does the workflow feel incomplete?
+      label: 当前缺口
+      description: 现在是哪个 skill 覆盖不到，或哪个链路不完整？
     validations:
       required: true
   - type: textarea
     id: sources
     attributes:
-      label: Public sources or references
-      description: Optional. Use public links only; do not include private documents, tokens, account data, or raw capture logs.
+      label: 公开来源或参考资料
+      description: 可选。只放公开链接；不要提交私有文档、token、账号数据或原始抓取日志。
     validations:
       required: false
   - type: checkboxes
     id: safety
     attributes:
-      label: Safety check
+      label: 安全确认
       options:
-        - label: This request does not require fake identity, platform evasion, engagement manipulation, bulk registration, or payout manipulation.
+        - label: 这个需求不需要虚假身份、规避平台风控、操纵互动、批量注册或操纵收益。
           required: true

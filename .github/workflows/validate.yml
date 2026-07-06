@@ -1,4 +1,4 @@
-name: Validate skills
+name: 校验 skills
 
 on:
   push:
@@ -8,13 +8,13 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: 拉取仓库
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: 设置 Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Validate skills
+      - name: 校验 skills
         run: python3 scripts/validate-skills.py skills
