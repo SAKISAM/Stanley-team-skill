@@ -1,0 +1,4 @@
+interface:
+  display_name: "St Content Rhythm"
+  short_description: "Plan X posting cadence and content ratios"
+  default_prompt: "Use $st-content-rhythm to plan X posting cadence and short-post to long-form ratios by stage."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "St Monetization Check"
+  short_description: "Check X creator monetization readiness and issues"
+  default_prompt: "Use $st-monetization-check to check X creator monetization readiness or suspension issues."

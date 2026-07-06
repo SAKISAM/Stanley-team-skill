@@ -1,0 +1,4 @@
+interface:
+  display_name: "St Growth Diagnosis"
+  short_description: "Diagnose low X exposure and follower growth"
+  default_prompt: "Use $st-growth-diagnosis to diagnose low exposure, low engagement, or slow follower growth on X."

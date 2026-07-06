@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a routing issue, missing link, unsafe output, or unusable workflow.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: User prompt
+      description: What did you ask Codex?
+      placeholder: "Example: Use st-toolkit: how do I check whether I am shadowbanned?"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the skill have done?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Do not include secrets, account credentials, identity documents, or private support emails.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Routing
+        - Profile
+        - Content rhythm
+        - Content system
+        - Reply growth
+        - Growth diagnosis
+        - Risk recovery
+        - Monetization check
+        - Infrastructure
+        - Monetization path
+        - Toolkit
+        - Save
+        - Documentation
+    validations:
+      required: true

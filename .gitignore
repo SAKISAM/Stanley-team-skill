@@ -1,0 +1,43 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Private source and capture material
+01-raw-md/
+logs/
+browser-logs/
+captures/
+_framework/
+00-source-index.md
+01-原始材料/
+02-atomic-notes/
+02-知识原子库/
+03-方法论知识包/
+04-公理库/
+05-skill工作流/
+06-本地状态/
+07-报告输出/
+09-验收与日志/
+
+# Local state and generated outputs
+.st-skill/
+sessions/
+reports/
+tmp/
+*.log
+*.tmp
+
+# Secrets and local exports
+*.env
+*.env.*
+!.env.example
+*.csv
+*.json
+!skills/**/agents/openai.yaml
+*.sqlite
+*.sqlite3
+
+# Packaging artifacts
+*.zip
+*.tar
+*.tar.gz

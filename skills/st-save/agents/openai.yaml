@@ -1,0 +1,4 @@
+interface:
+  display_name: "St Save"
+  short_description: "Save X account growth state and next steps"
+  default_prompt: "Use $st-save to save the current X account growth state and next St-skill step."

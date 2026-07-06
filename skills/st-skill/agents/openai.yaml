@@ -1,0 +1,4 @@
+interface:
+  display_name: "St-skill"
+  short_description: "Route X new-account growth questions to St modules"
+  default_prompt: "Use $st-skill to route an X new-account growth question to the right St-skill module."
