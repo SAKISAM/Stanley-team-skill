@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Monetization Path"
+  short_description: "Design monetization paths beyond X platform payouts"
+  default_prompt: "Use $achuan-x-monetization-path to design monetization paths beyond X platform payouts."

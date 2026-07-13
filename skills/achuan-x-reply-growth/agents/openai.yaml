@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Reply Growth"
+  short_description: "X reply routines and comment-section growth"
+  default_prompt: "Use $achuan-x-reply-growth to design an X reply and interaction growth routine."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Content System"
+  short_description: "Design X content pillars and topic pools"
+  default_prompt: "Use $achuan-x-content-system to design X content pillars, topic pools, and format roles."

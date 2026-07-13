@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Growth Diagnosis"
+  short_description: "Diagnose low X exposure and follower growth"
+  default_prompt: "Use $achuan-x-growth-diagnosis to diagnose low exposure, low engagement, or slow follower growth on X."

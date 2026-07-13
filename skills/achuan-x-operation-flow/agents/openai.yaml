@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X-OperationFlow"
+  short_description: "Route X new-account growth questions to Achuan-X modules"
+  default_prompt: "Use $achuan-x-operation-flow to route an X new-account growth question to the right Achuan-X-OperationFlow module."

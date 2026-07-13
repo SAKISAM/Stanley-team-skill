@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Content Rhythm"
+  short_description: "Plan X posting cadence and content ratios"
+  default_prompt: "Use $achuan-x-content-rhythm to plan X posting cadence and short-post to long-form ratios by stage."

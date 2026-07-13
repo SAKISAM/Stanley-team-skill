@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Toolkit"
+  short_description: "X growth tools and source checklist"
+  default_prompt: "Use $achuan-x-toolkit to choose tools and source channels for an X growth workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Monetization Check"
+  short_description: "Check X creator monetization readiness and issues"
+  default_prompt: "Use $achuan-x-monetization-check to check X creator monetization readiness or suspension issues."

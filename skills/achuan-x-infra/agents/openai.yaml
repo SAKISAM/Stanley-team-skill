@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Infra"
+  short_description: "Plan compliant X payment and verification setup"
+  default_prompt: "Use $achuan-x-infra to plan compliant setup for X Premium, Stripe, identity verification, eSIM, or bank-card questions."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "St Positioning"
-  short_description: "Plan an X new account IP and content direction"
-  default_prompt: "Use $st-positioning to clarify an X new account IP, audience, and content direction."

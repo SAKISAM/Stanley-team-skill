@@ -1,4 +1,0 @@
-interface:
-  display_name: "St Content System"
-  short_description: "Design X content pillars and topic pools"
-  default_prompt: "Use $st-content-system to design X content pillars, topic pools, and format roles."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "St Toolkit"
-  short_description: "X growth tools and source checklist"
-  default_prompt: "Use -toolkit to choose tools and source channels for an X growth workflow."

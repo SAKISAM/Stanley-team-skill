@@ -1,4 +1,0 @@
-interface:
-  display_name: "St Profile"
-  short_description: "用于设计和体检 X 主页头像、ID、bio 与置顶帖框架"
-  default_prompt: "Use $st-profile to review or design an X profile avatar, header, handle, bio, and pinned post."

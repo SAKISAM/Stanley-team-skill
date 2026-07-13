@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你改进 St-skill。
+感谢你改进 Achuan-X-OperationFlow。
 
 ## 开发规则
 
@@ -15,7 +15,7 @@
 每个 skill 使用这个结构：
 
 ```text
-skills/st-example/
+skills/achuan-x-example/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml

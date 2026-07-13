@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Save"
+  short_description: "Save X account growth state and next steps"
+  default_prompt: "Use $achuan-x-save to save the current X account growth state and next Achuan-X-OperationFlow step."

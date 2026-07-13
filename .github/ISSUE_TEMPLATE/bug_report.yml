@@ -8,7 +8,7 @@ body:
     attributes:
       label: 用户提问
       description: 你当时向 Codex 问了什么？
-      placeholder: "例如：Use st-toolkit：怎么检测自己有没有影子封禁？"
+      placeholder: "例如：Use achuan-x-toolkit：怎么检测自己有没有影子封禁？"
     validations:
       required: true
   - type: textarea

@@ -1,4 +1,0 @@
-interface:
-  display_name: "St Risk Recovery"
-  short_description: "Triage X locks, limits, suspensions, and reach issues"
-  default_prompt: "Use $st-risk-recovery to triage X account locks, limits, suspensions, and visibility issues."

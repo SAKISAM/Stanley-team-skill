@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate St-skill release folders without external dependencies."""
+"""Validate Achuan-X-OperationFlow release folders without external dependencies."""
 
 from __future__ import annotations
 
@@ -163,16 +163,16 @@ def main(argv: list[str]) -> int:
 
     repo_root = skills_root.parent
     errors: list[str] = []
-    skill_dirs = sorted(path for path in skills_root.iterdir() if path.is_dir() and path.name.startswith("st-"))
+    skill_dirs = sorted(path for path in skills_root.iterdir() if path.is_dir() and path.name.startswith("achuan-x-"))
     if not skill_dirs:
-        errors.append(f"{skills_root}: no st-* skill directories found")
+        errors.append(f"{skills_root}: no achuan-x-* skill directories found")
 
     for skill_dir in skill_dirs:
         errors.extend(validate_skill_dir(skill_dir))
 
-    unexpected = sorted(path.name for path in skills_root.iterdir() if path.is_dir() and not path.name.startswith("st-"))
+    unexpected = sorted(path.name for path in skills_root.iterdir() if path.is_dir() and not path.name.startswith("achuan-x-"))
     if unexpected:
-        errors.append(f"{skills_root}: unexpected non-st skill directories: {', '.join(unexpected)}")
+        errors.append(f"{skills_root}: unexpected non-achuan-x skill directories: {', '.join(unexpected)}")
 
     errors.extend(scan_sensitive_material(repo_root))
 

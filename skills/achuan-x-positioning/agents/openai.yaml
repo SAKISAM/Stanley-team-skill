@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Positioning"
+  short_description: "Plan an X new account IP and content direction"
+  default_prompt: "Use $achuan-x-positioning to clarify an X new account IP, audience, and content direction."

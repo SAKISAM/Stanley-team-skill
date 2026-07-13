@@ -1,0 +1,4 @@
+interface:
+  display_name: "Achuan-X Risk Recovery"
+  short_description: "Triage X locks, limits, suspensions, and reach issues"
+  default_prompt: "Use $achuan-x-risk-recovery to triage X account locks, limits, suspensions, and visibility issues."
