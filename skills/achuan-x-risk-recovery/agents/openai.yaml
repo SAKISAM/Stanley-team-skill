@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Risk Recovery"
-  short_description: "Triage X locks, limits, suspensions, and reach issues"
-  default_prompt: "Use $achuan-x-risk-recovery to triage X account locks, limits, suspensions, and visibility issues."
+  display_name: "Achuan-X 账号恢复"
+  short_description: "处理登录锁定、冻结、功能限制、搜索不到和回复不可见"
+  default_prompt: "使用 $achuan-x-risk-recovery 先看我的官方提示和发生时间，再给账号恢复步骤。"

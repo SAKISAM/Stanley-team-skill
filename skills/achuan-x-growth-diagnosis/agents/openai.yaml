@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Growth Diagnosis"
-  short_description: "Diagnose low X exposure and follower growth"
-  default_prompt: "Use $achuan-x-growth-diagnosis to diagnose low exposure, low engagement, or slow follower growth on X."
+  display_name: "Achuan-X 增长诊断"
+  short_description: "结合粉丝数、账号公开内容和数据找出不涨粉原因"
+  default_prompt: "使用 $achuan-x-growth-diagnosis 先问我的账号ID、粉丝数和近期数据，再诊断为什么没曝光或不涨粉。"

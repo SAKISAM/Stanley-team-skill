@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Toolkit"
-  short_description: "X growth tools and source checklist"
-  default_prompt: "Use $achuan-x-toolkit to choose tools and source channels for an X growth workflow."
+  display_name: "Achuan-X 工具箱"
+  short_description: "查找 Grok、影子封禁检测、热点、素材和收益工具入口"
+  default_prompt: "使用 $achuan-x-toolkit 先问清我要解决什么，再推荐最少且能直接使用的 X 工具。"

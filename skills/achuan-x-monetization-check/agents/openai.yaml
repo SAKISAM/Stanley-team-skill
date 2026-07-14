@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Monetization Check"
-  short_description: "Check X creator monetization readiness and issues"
-  default_prompt: "Use $achuan-x-monetization-check to check X creator monetization readiness or suspension issues."
+  display_name: "Achuan-X 创作者收益"
+  short_description: "检查收益资格、暂停原因、公开内容风险和申诉材料"
+  default_prompt: "使用 $achuan-x-monetization-check 先问我的账号ID、粉丝数、通知原文和暂停时间，再准备整改与申诉。"

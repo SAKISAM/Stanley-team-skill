@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Infra"
-  short_description: "Plan compliant X payment and verification setup"
-  default_prompt: "Use $achuan-x-infra to plan compliant setup for X Premium, Stripe, identity verification, eSIM, or bank-card questions."
+  display_name: "Achuan-X 订阅与收款"
+  short_description: "处理 Premium、身份验证、手机号、Stripe 和 Wise 收款"
+  default_prompt: "使用 $achuan-x-infra 先问清我要开通什么和页面提示，再给合规的订阅、验证或收款步骤。"

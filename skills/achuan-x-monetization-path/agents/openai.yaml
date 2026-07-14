@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Monetization Path"
-  short_description: "Design monetization paths beyond X platform payouts"
-  default_prompt: "Use $achuan-x-monetization-path to design monetization paths beyond X platform payouts."
+  display_name: "Achuan-X 变现路径"
+  short_description: "根据粉丝数、受众和能力选择最容易验证的赚钱方式"
+  default_prompt: "使用 $achuan-x-monetization-path 先问我的粉丝数、受众和可交付能力，再给一个能在7天内验证的变现路径。"

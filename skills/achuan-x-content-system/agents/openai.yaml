@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Content System"
-  short_description: "Design X content pillars and topic pools"
-  default_prompt: "Use $achuan-x-content-system to design X content pillars, topic pools, and format roles."
+  display_name: "Achuan-X 内容系统"
+  short_description: "把用户会的东西整理成能持续发布的栏目和选题池"
+  default_prompt: "使用 $achuan-x-content-system 先问清我的粉丝数、目标读者和已有素材，再设计栏目与选题池。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Save"
-  short_description: "Save X account growth state and next steps"
-  default_prompt: "Use $achuan-x-save to save the current X account growth state and next Achuan-X-OperationFlow step."
+  display_name: "Achuan-X 账号进度"
+  short_description: "保存、恢复账号进度，并把多次记录整理成阶段报告"
+  default_prompt: "使用 $achuan-x-save 保存这次账号进度，或读取上次记录继续处理。"

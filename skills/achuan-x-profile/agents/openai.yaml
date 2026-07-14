@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Profile"
+  display_name: "Achuan-X 主页优化"
   short_description: "用于设计和体检 X 主页头像、ID、bio 与置顶帖框架"
-  default_prompt: "Use $achuan-x-profile to review or design an X profile avatar, header, handle, bio, and pinned post."
+  default_prompt: "使用 $achuan-x-profile 先了解我的账号和粉丝数，再检查头像、主页简介、@账号ID、顶部横图和置顶帖。"

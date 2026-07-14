@@ -1,4 +1,4 @@
 interface:
-  display_name: "Achuan-X Content Rhythm"
-  short_description: "Plan X posting cadence and content ratios"
-  default_prompt: "Use $achuan-x-content-rhythm to plan X posting cadence and short-post to long-form ratios by stage."
+  display_name: "Achuan-X 发帖节奏"
+  short_description: "按粉丝阶段安排短推、长文、回复和每周复盘节奏"
+  default_prompt: "使用 $achuan-x-content-rhythm 先问我的粉丝数和可投入时间，再安排一周发帖与回复计划。"

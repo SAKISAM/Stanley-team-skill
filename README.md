@@ -62,6 +62,19 @@ cp -R skills/achuan-x-* ~/.codex/skills/
 - “Use achuan-x-monetization-check：创作者收益暂停怎么申诉？”
 - “Use achuan-x-growth-diagnosis：为什么我发了很多但不涨粉？”
 
+账号类问题会先询问 `@账号ID`、当前粉丝数和你最想解决的问题。信息不够时不会急着给方案或转模块。
+
+## 可选：接入 Grok CLI
+
+安装并登录 Grok CLI 后，Achuan-X-OperationFlow 可以检索公开 X 主页和近期帖子，辅助做增长、账号风险和创作者收益检查：
+
+```bash
+curl -fsSL https://x.ai/cli/install.sh | bash
+grok login --oauth
+```
+
+Grok CLI 是可选能力。没有安装或无法登录时，skill 会改为请用户提供主页截图、帖子链接或 CSV，不会中断问诊。只允许向 Grok 发送公开账号 ID 和公开检索任务，不发送邮件、私信、证件、支付资料或本地素材。
+
 ## 仓库结构
 
 ```text
@@ -91,6 +104,7 @@ cp -R skills/achuan-x-* ~/.codex/skills/
 
 ```bash
 python3 scripts/validate-skills.py skills
+python3 scripts/test-skill-contracts.py
 ```
 
 校验脚本会检查：
@@ -100,6 +114,7 @@ python3 scripts/validate-skills.py skills
 - `agents/openai.yaml` 存在，并包含必要的 UI 字段。
 - skill 目录没有嵌套 `SKILL.md` 或辅助文档。
 - 发布包不包含常见私有路径、原始抓取目录、`.DS_Store`、`.env` 或疑似密钥。
+- 关键问诊、粉丝数、直达链接、Grok 隔离参数和子 skill 路由符合行为合同。
 
 ## 安全边界
 

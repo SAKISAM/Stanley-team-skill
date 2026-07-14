@@ -129,7 +129,7 @@
 
 - 存档路径只能使用 `~/.achuan-x-operation-flow`、`${ACHUAN_X_HOME}` 或用户指定目录。
 - reference 只保存公开来源 URL 或来源 ID，不保存私有飞书、浏览器 cookie、抓取日志。
-- 每次保存都写入 `schema_version`，后续新增 `achuan-x-restore` 或 `achuan-x-report` 时按版本迁移。
+- 每次保存都写入 `schema_version`，由 `achuan-x-save` 在恢复或生成报告时按版本读取。
 - `privacy_status` 默认为 `redacted`；如果用户要求保存敏感摘要，标为 `contains-sensitive-summary`。
 
 ## 下次使用

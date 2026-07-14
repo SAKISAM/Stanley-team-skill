@@ -1,4 +1,4 @@
 interface:
   display_name: "Achuan-X-OperationFlow"
-  short_description: "Route X new-account growth questions to Achuan-X modules"
-  default_prompt: "Use $achuan-x-operation-flow to route an X new-account growth question to the right Achuan-X-OperationFlow module."
+  short_description: "先问清账号情况，再处理 X 起号、增长、风险和变现问题"
+  default_prompt: "使用 $achuan-x-operation-flow 先问清我的账号情况，再帮我解决当前最重要的 X 运营问题。"
