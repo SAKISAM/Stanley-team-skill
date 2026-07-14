@@ -33,7 +33,6 @@ Achuan-X-OperationFlow 是一组面向 Codex 的 X/Twitter 起号与增长技能
 | `achuan-x-monetization-path` | 平台外变现：咨询、社群、课程、服务、商单 |
 | `achuan-x-toolkit` | 工具入口、爆款监测、影子封禁查询、P/P+ 和 Wise 教程 |
 | `achuan-x-save` | 保存账号状态、阶段判断和下一步动作 |
-| `achuan-x-positioning` | 早期“账号方向”说法的兼容入口 |
 
 ## 安装
 

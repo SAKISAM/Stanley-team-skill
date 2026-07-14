@@ -1,8 +1,8 @@
 ---
 name: achuan-x-operation-flow
 description: |
-  Achuan-X-OperationFlow 技能群主入口。根据用户关于 X/Twitter 新号从 0 到 1 的问题，路由到账号方向、主页、发推节奏、内容系统、回复增长、增长诊断、数据复盘、风险恢复、收益验证、基础设施、变现路径、工具清单或状态保存模块。
-  触发方式：/achuan-x-operation-flow、/st、Achuan-X-OperationFlow、推特起号、X 新号、从 0 到 1、推特新号怎么做、帮我看看这个 X 账号、分析 X 数据、CSV 作战计划、7 天复盘、季度复盘、新人起步工具、爆款监测、影子封禁检测、开 P、P+、Premium+、绑定收益、Wise 开通、商单接单、Tutti。
+  Achuan-X-OperationFlow 技能群主入口。根据用户关于 X/Twitter 新号从 0 到 1 的问题，路由到主页、发推节奏、内容系统、回复增长、增长诊断、数据复盘、风险恢复、收益验证、基础设施、变现路径、工具清单或状态保存模块。
+  触发方式：/achuan-x-operation-flow、Achuan-X-OperationFlow、推特起号、X 新号、从 0 到 1、推特新号怎么做、帮我看看这个 X 账号、分析 X 数据、CSV 作战计划、7 天复盘、季度复盘、新人起步工具、爆款监测、影子封禁检测、开 P、P+、Premium+、绑定收益、Wise 开通、商单接单、Tutti。
 ---
 
 # Achuan-X-OperationFlow：X 新号 0 到 1 技能群入口
@@ -22,7 +22,7 @@ description: |
 
 | 用户意图信号 | 路由到 | 一句话说明 |
 |---|---|---|
-| 新号怎么开始、账号方向、受众、内容主线 | `/achuan-x-profile` → `/achuan-x-content-rhythm` → `/achuan-x-content-system` | 先建立主页可信度，再进入节奏和内容主线 |
+| 新号怎么开始、受众、内容主题、内容主线 | `/achuan-x-profile` → `/achuan-x-content-rhythm` → `/achuan-x-content-system` | 先建立主页可信度，再进入节奏和内容主线 |
 | 主页怎么改、头像、header、ID、bio、置顶帖 | `/achuan-x-profile` | 主页四件套搭建与体检 |
 | 发推频率、短推和长文比例、阶段节奏、30 天计划 | `/achuan-x-content-rhythm` | 发推节奏和阶段比例 |
 | 内容栏目、选题池、短推/长文/回复/引用分别做什么 | `/achuan-x-content-system` | 内容栏目和格式分工 |
@@ -67,7 +67,6 @@ description: |
 ## 延后范围
 
 - 路由示例库在使用中继续追加，不影响当前主路由。
-- `/achuan-x-positioning` 是早期兼容入口，当前主链路不再单独使用抽象方向模块；账号方向、目标读者和内容主线分别由 `/achuan-x-profile`、`/achuan-x-content-system` 和 `/achuan-x-content-rhythm` 承接。
 - `x-viral-system`、`x-article-to-tweets`、`baoyu-post-to-x` 只在用户明确要求写推文、拆长文或发布时衔接。
 - `achuan-x-restore` 和 `achuan-x-report` 等真实存档格式稳定后再新增，当前先由 `achuan-x-save` 保存状态。
 

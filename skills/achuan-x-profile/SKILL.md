@@ -15,7 +15,7 @@ description: |
 - 不负责发推节奏。
 - 不负责具体代写推文。
 
-账号方向、目标读者或内容主线不清时，先形成可测试的主页假设；需要继续拆栏目时转 `/achuan-x-content-system`。
+目标读者或内容主线不清时，先形成可测试的主页承诺；需要继续拆栏目时转 `/achuan-x-content-system`。
 
 ## 输入类型
 
@@ -27,7 +27,7 @@ description: |
 
 ### Phase 1：接收主页材料
 
-先确认当前粉丝数；用户没提供时先追问，不要直接给主页改法。然后收集 display name、handle、头像、header、bio、链接、置顶帖、目标读者、账号方向和最近 5-10 条内容。
+先确认当前粉丝数；用户没提供时先追问，不要直接给主页改法。然后收集 display name、handle、头像、header、bio、链接、置顶帖、目标读者、内容主题和最近 5-10 条内容。
 
 ### Phase 2：主页五件套检查
 
@@ -55,7 +55,7 @@ description: |
 ```markdown
 # X 主页体检 / 搭建卡
 
-## 当前账号方向
+## 当前内容主题与目标读者
 
 ## 当前粉丝数 / 阶段
 
@@ -87,7 +87,7 @@ description: |
 
 | 触发条件 | 路由 |
 |---|---|
-| 账号方向或内容主线不清 | `/achuan-x-content-system` |
+| 内容主题或目标读者不清 | `/achuan-x-content-system` |
 | 主页已确认 | `/achuan-x-content-rhythm` |
 | 用户问具体内容栏目 | `/achuan-x-content-system` |
 | 用户问主页不转化 | `/achuan-x-growth-diagnosis` |

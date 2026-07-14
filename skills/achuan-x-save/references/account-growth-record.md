@@ -12,13 +12,13 @@
 ## 文件命名
 
 ```text
-{handle}_st_growth_record.json
+{handle}_achuan_x_growth_record.json
 ```
 
 如果没有 handle，用项目名：
 
 ```text
-{project}_st_growth_record.json
+{project}_achuan_x_growth_record.json
 ```
 
 ## 最小字段

@@ -14,7 +14,7 @@
 | 热榜入口 | TopHub | 泛流量选题雷达 | 抓取时 503，待复抓 |
 | 跨平台内容 | 新榜 | 榜单、热门内容、创作者工具、投放变现线索 | 已抓取公开页 |
 | 官方规格 | X Help Profile / Posts / Articles / Replies / Lists | 核验主页规格、内容格式、回复可见性、互动名单 | 使用时现查 |
-| 商单平台 | Tutti：https://tutti.so/join?ref=YLFW7F | 3000 粉以上尝试进入平台接单、浏览 campaign、提交内容、查看 tracking/payout | 已抓取公开页 |
+| 商单平台 | [Tutti](https://tutti.so/join?ref=YLFW7F) | 3000 粉以上尝试进入平台接单、浏览 campaign、提交内容、查看 tracking/payout | 链接包含推荐参数；平台规则和推荐归属需使用时核验 |
 | 商单规则 | X Paid Partnerships Policy / FTC Endorsements | 检查 Paid Partnership disclosure、material connection、禁投品类 | 使用时现查 |
 | 打款规则 | Stripe Connect docs | 检查 onboarding、KYC、currently_due/past_due、payout 状态 | 使用时现查 |
 
@@ -22,7 +22,7 @@
 
 - 工具只提供信号，不替代判断。
 - 爆款监测的作用是发现“正在起量的流量池”，不是复制原文。
-- 热点源要经过账号方向过滤，不能所有热点都追。
+- 热点源要经过内容主题与目标读者过滤，不能所有热点都追。
 
 ## 使用流程
 
