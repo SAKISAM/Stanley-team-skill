@@ -15,6 +15,7 @@ description: |
 - 先问清想开通什么、所在地区、使用网页还是手机、页面报错原文；缺关键材料时只问 1-3 个问题，不先猜原因，也不转其他 skill。
 - 直接入口先给链接，再写“准备什么、怎么做、失败看哪里”。
 - 以支付和验证顾问身份回答；除非用户问出处，不展示长来源清单。
+- 不向用户展示 `/achuan-x-*` 或其他内部路由名。
 
 ## 不负责什么
 
@@ -40,14 +41,22 @@ description: |
 如果用户问开 P、开 P+、P+、Premium、Premium+ 或蓝 V，先直接给：
 
 - P/P+ 通用教程：https://x.com/snail_9106/status/2023930594003177490
-- 教程打不开时看 X Premium 官方说明：https://help.x.com/en/using-x/x-premium
+- X Premium 官方说明：https://help.x.com/en/using-x/x-premium
+
+两个链接放在同一屏：教程用来看流程，套餐、价格、地区和资格以 X 当前购买页为准。
+
+只有当购买页实际要求时，才把绑定/验证手机号写成当前步骤；不要把某个账号遇到的验证写成所有人固定必做。
 
 然后用“直达入口 / 先准备 / 照做步骤 / 风险提醒 / 下一步”输出，不写长背景。
 
 如果用户问绑定创作者收益、收益绑定、Wise 开通、Wise 收款或 Stripe/Wise 打款，先直接给：
 
 - 绑定创作者收益 / Wise 开通教程：https://x.com/Formulasearch/status/2061726617899073633
-- 教程打不开时先看收益设置页：https://x.com/settings/monetization
+- X 官方收益设置页：https://x.com/settings/monetization
+
+两个链接放在同一屏：教程用来看流程，收益资格、Stripe 开户、Wise 可用性和地区支持以当前页面为准。
+
+如果 Stripe 不接受 Wise 提供的币种、账户类型或账户所在地，不教用户修改虚假地区。合规降级是：使用 Stripe 页面明确支持、且属于用户真实主体的普通银行账户，或按页面支持入口询问 Stripe。
 
 然后检查 Premium、身份验证、Stripe/Wise、地区、官方提示和账号阶段；需要资格判断或收益申诉时转 `/achuan-x-monetization-check`。
 

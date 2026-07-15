@@ -34,6 +34,8 @@ def main() -> int:
         [
             "没问清楚时不提 skill 名称",
             "一次只问最关键的 1-3 个问题",
+            "先做一步 + 再补信息",
+            "不让用户空等",
             "完整读取并继续执行",
             "scripts/grok-x-research.sh @handle overview",
         ],
@@ -58,6 +60,8 @@ def main() -> int:
         skill_md = read(f"skills/{name}/SKILL.md")
         if "## 回答方式" not in skill_md and name != "achuan-x-operation-flow":
             errors.append(f"skills/{name}/SKILL.md: missing beginner-facing response rules")
+        if name != "achuan-x-operation-flow" and "不向用户展示 `/achuan-x-*`" not in skill_md:
+            errors.append(f"skills/{name}/SKILL.md: missing internal-route hiding rule")
         agent_yaml = read(f"skills/{name}/agents/openai.yaml")
         short_line = next((line for line in agent_yaml.splitlines() if "short_description:" in line), "")
         if not re.search(r"[\u4e00-\u9fff]", short_line):
@@ -65,7 +69,13 @@ def main() -> int:
 
     require(
         "skills/achuan-x-risk-recovery/SKILL.md",
-        ["https://x-shadowban-checker.fia-s.com/", "grok-x-research.sh @handle risk"],
+        [
+            "https://x-shadowban-checker.fia-s.com/",
+            "链接后立即给这三步",
+            "不是 X 官方结论",
+            "强制登录",
+            "grok-x-research.sh @handle risk",
+        ],
         errors,
     )
     require(
@@ -79,8 +89,49 @@ def main() -> int:
             "不发送官方邮件",
             "中英双语申诉信模板",
             "请求人工复核",
+            "80 行以内",
+            "不得把“每天回复 X 条”写成 X 的官方安全线",
+            "整改观察不能让用户错过申诉期限",
             "https://help.x.com/en/forms/appeal-suspended-revenue-sharing/redirect",
         ],
+        errors,
+    )
+    require(
+        "skills/achuan-x-profile/SKILL.md",
+        ["临时可用版", "这是临时版", "遮住私信预览"],
+        errors,
+    )
+    require(
+        "skills/achuan-x-monetization-path/SKILL.md",
+        [
+            "不得只追问",
+            "https://tutti.so/join?ref=YLFW7F",
+            "7 天实验",
+            "测试价算法",
+            "收款和交付边界",
+        ],
+        errors,
+    )
+    require(
+        "skills/achuan-x-toolkit/SKILL.md",
+        [
+            "最小工具包",
+            "X Lists（列表）",
+            "在同一屏给 X 官方说明",
+            "https://newsnow.busiyi.world/",
+            "https://tophub.today/",
+            "dkplofpecmjmbhgjgleeflcnfgfkdfpd",
+        ],
+        errors,
+    )
+    require(
+        "skills/achuan-x-content-rhythm/SKILL.md",
+        ["最小可套用模板", "回复预算", "质量底线"],
+        errors,
+    )
+    require(
+        "skills/achuan-x-growth-diagnosis/SKILL.md",
+        ["55 行以内", "拆成七个独立小节", "只设一个主变量", "负载控制"],
         errors,
     )
     require(

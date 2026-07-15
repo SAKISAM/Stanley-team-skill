@@ -62,7 +62,9 @@ cp -R skills/achuan-x-* ~/.codex/skills/
 - “Use achuan-x-monetization-check：创作者收益暂停怎么申诉？”
 - “Use achuan-x-growth-diagnosis：为什么我发了很多但不涨粉？”
 
-账号类问题会先询问 `@账号ID`、当前粉丝数和你最想解决的问题。信息不够时不会急着给方案或转模块。
+账号类问题会先询问 `@账号ID`、当前粉丝数和你最想解决的问题。信息不够时不会猜个性化结论，但会先给一个低风险、10 分钟内能完成的最小动作，再最多追问 3 项。
+
+小白场景、评分标准、硬性上限和最新回测结果见 [BENCHMARK.md](BENCHMARK.md)。
 
 ## 可选：接入 Grok CLI
 
